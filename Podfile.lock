@@ -1,0 +1,47 @@
+PODS:
+  - CHTCollectionViewWaterfallLayout/Swift (0.9.8)
+  - Google-Maps-iOS-Utils (3.6.0):
+    - Google-Maps-iOS-Utils/Clustering (= 3.6.0)
+    - Google-Maps-iOS-Utils/Geometry (= 3.6.0)
+    - Google-Maps-iOS-Utils/Heatmap (= 3.6.0)
+    - Google-Maps-iOS-Utils/QuadTree (= 3.6.0)
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Clustering (3.6.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Geometry (3.6.0):
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/Heatmap (3.6.0):
+    - Google-Maps-iOS-Utils/QuadTree
+    - GoogleMaps
+  - Google-Maps-iOS-Utils/QuadTree (3.6.0):
+    - GoogleMaps
+  - GoogleMaps (4.1.0):
+    - GoogleMaps/Maps (= 4.1.0)
+  - GoogleMaps/Base (4.1.0)
+  - GoogleMaps/Maps (4.1.0):
+    - GoogleMaps/Base
+  - ViewAnimator (3.0.2)
+
+DEPENDENCIES:
+  - CHTCollectionViewWaterfallLayout/Swift
+  - Google-Maps-iOS-Utils
+  - GoogleMaps
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - CHTCollectionViewWaterfallLayout
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  CHTCollectionViewWaterfallLayout: 5f241d2480ab4939aa0d1ad4981de9eef1fbe60d
+  Google-Maps-iOS-Utils: bb96a3e6580ae633bf53ded8d9f466cd3ab8baf8
+  GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  ViewAnimator: 16435576cd44fca0b0d63147d5031fd3e91d295a
+
+PODFILE CHECKSUM: 98b95c97e6e2da0e40e921d87ed7ce0086ed57d4
+
+COCOAPODS: 1.9.1

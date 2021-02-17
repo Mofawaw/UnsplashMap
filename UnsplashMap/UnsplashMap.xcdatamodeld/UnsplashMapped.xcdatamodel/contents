@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D5042d" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Photo" representedClassName=".Photo" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageURL" optional="YES" attributeType="String"/>
+        <attribute name="imageURLMap" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ratio" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="unsplashURL" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotoLocation" inverseName="photos" inverseEntity="PhotoLocation"/>
+    </entity>
+    <entity name="PhotoLocation" representedClassName=".PhotoLocation" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Photo" inverseName="location" inverseEntity="Photo"/>
+    </entity>
+    <elements>
+        <element name="Photo" positionX="-262.921142578125" positionY="-74.08065795898438" width="128" height="178"/>
+        <element name="PhotoLocation" positionX="-45" positionY="0" width="128" height="103"/>
+    </elements>
+</model>
