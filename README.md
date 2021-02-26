@@ -23,7 +23,7 @@ I have created the app to further consolidate my knowledge in UIKit. I was also 
 ## Things I learned
 
 - More familiarity with UIKit
-- Synchronizing API calls using `DispatchSemephore`/`DispatchGroup`   
+- Synchronizing API calls using `DispatchSemaphore`/`DispatchGroup`   
 - Parsing JSON response with `JSONSerialization` to save into `CoreData` database
 - Using the `NSFetchedResultsController`
 - WaterFall `UICollectionView` layout and custom animations with the help of CocoaPods libraries
